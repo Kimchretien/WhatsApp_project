@@ -126,7 +126,9 @@ import 'package:flutter/material.dart';
 
 void main() {
   // Entry point of the application
-  runApp(HomePage());
+  runApp(const MaterialApp(
+    home: HomePage(),
+  ));
 }
 
 
@@ -136,17 +138,54 @@ void main() {
 
       // ),
 
+class HomePage extends StatefulWidget{
+  const HomePage({super.key});
+  @override
+  State<HomePage> createState() => HomePageState();
+}
 
+ 
 
+class HomePageState extends State<HomePage> {
 
-class HomePage extends StatelessWidget{
+  int counter = 0;
   @override
   Widget build(BuildContext context){
-    return Center(
-      child: Text(
-         'Hello kim intsinzi it is my first flutter app',
-         textDirection: TextDirection.ltr,//pour qu'il s'affiche on doit preciser la direction du texte
-    )
+    return Scaffold(
+      appBar: AppBar(title: Text("Appli"),elevation: 16,centerTitle: true,),
+      body: Center(
+        child: Text(
+          'Hello $counter',
+          textDirection: TextDirection.ltr,//pour qu'il s'affiche on doit preciser la direction du texte
+        ),
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: (){
+          setState(() {
+            counter++;
+          });
+        },
+        child: Icon(Icons.add),
+      ),
     );
   }
 }
+// class HomePage extends StatelessWidget{
+//   const HomePage({super.key});
+//   @override
+//   Widget build(BuildContext context){
+//     return Scaffold(
+//       appBar: AppBar(title: Text("Appli"),elevation: 16,centerTitle: true,),
+//       body: Center(
+//         child: Text(
+//           'Hello kim intsinzi',
+//           textDirection: TextDirection.ltr,//pour qu'il s'affiche on doit preciser la direction du texte
+//         ),
+//       ),
+//       floatingActionButton: FloatingActionButton(
+//         onPressed: (){},
+//         child: Icon(Icons.add),
+//       ),
+//     );
+//   }
+// }
