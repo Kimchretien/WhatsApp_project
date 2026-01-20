@@ -16,9 +16,13 @@ class ConversationsPage extends StatelessWidget {
         final convo = conversations[index];
 
         return ListTile(
+          onTap: () {
+            
+          },
           leading: CircleAvatar(
-            backgroundImage: NetworkImage(convo['avatar'] as String),
-          ),
+  backgroundImage: AssetImage('assets/images/${convo['avatar']}.JPG'),
+),
+
           title: Text(
             convo['name'] as String,
             style: const TextStyle(fontWeight: FontWeight.bold),

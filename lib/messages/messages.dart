@@ -6,7 +6,7 @@ const List<Map<String, dynamic>> conversations = [
     "time": "16:45",
     "unreadCount": 2,
     "isOnline": true,
-    "avatar": "https://i.pravatar.cc/150?img=1"
+    "avatar": "1"
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@ const List<Map<String, dynamic>> conversations = [
     "time": "15:30",
     "unreadCount": 0,
     "isOnline": false,
-    "avatar": "https://i.pravatar.cc/150?img=2"
+    "avatar": "11"
   },
   {
     "id": 3,
@@ -24,7 +24,7 @@ const List<Map<String, dynamic>> conversations = [
     "time": "14:12",
     "unreadCount": 5,
     "isOnline": true,
-    "avatar": "https://i.pravatar.cc/150?img=3"
+    "avatar": "3"
   },
   {
     "id": 4,
@@ -33,7 +33,7 @@ const List<Map<String, dynamic>> conversations = [
     "time": "13:50",
     "unreadCount": 0,
     "isOnline": false,
-    "avatar": "https://i.pravatar.cc/150?img=4"
+    "avatar": "4"
   },
   {
     "id": 5,
@@ -42,7 +42,7 @@ const List<Map<String, dynamic>> conversations = [
     "time": "12:40",
     "unreadCount": 1,
     "isOnline": true,
-    "avatar": "https://i.pravatar.cc/150?img=5"
+    "avatar": "5"
   },
   {
     "id": 6,
@@ -51,7 +51,7 @@ const List<Map<String, dynamic>> conversations = [
     "time": "11:25",
     "unreadCount": 3,
     "isOnline": false,
-    "avatar": "https://i.pravatar.cc/150?img=6"
+    "avatar": "6"
   },
   {
     "id": 7,
@@ -60,7 +60,7 @@ const List<Map<String, dynamic>> conversations = [
     "time": "10:18",
     "unreadCount": 0,
     "isOnline": true,
-    "avatar": "https://i.pravatar.cc/150?img=7"
+    "avatar": "7"
   },
   {
     "id": 8,
@@ -69,7 +69,7 @@ const List<Map<String, dynamic>> conversations = [
     "time": "09:55",
     "unreadCount": 4,
     "isOnline": true,
-    "avatar": "https://i.pravatar.cc/150?img=8"
+    "avatar": "8"
   },
   {
     "id": 9,
@@ -78,7 +78,7 @@ const List<Map<String, dynamic>> conversations = [
     "time": "Hier",
     "unreadCount": 0,
     "isOnline": false,
-    "avatar": "https://i.pravatar.cc/150?img=9"
+    "avatar": "9"
   },
   {
     "id": 10,
@@ -87,6 +87,6 @@ const List<Map<String, dynamic>> conversations = [
     "time": "Hier",
     "unreadCount": 1,
     "isOnline": false,
-    "avatar": "https://i.pravatar.cc/150?img=10"
+    "avatar": "10"
   }
 ];
